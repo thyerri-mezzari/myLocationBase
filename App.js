@@ -21,7 +21,7 @@ const db = SQLite.openDatabase('locations.db');
 export default function App() {
   const [isSwitchOn, setIsSwitchOn] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [locations, setLocations] = useState([]);git init
+  const [locations, setLocations] = useState([]);
 
   const [theme, setTheme] = useState({
     ...DefaultTheme,
